@@ -1,2 +1,2 @@
 # picklesonmayo.github.io
-A epic website.
+an epic website store. prepare to buckle up.
