@@ -1,0 +1,14 @@
+#youtubevid {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    left: 50%;
+}
+html {
+   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+}
+#title {
+    font-weight: bold;
+    color:  green
+    
+}
