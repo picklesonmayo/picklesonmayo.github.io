@@ -1,14 +1,27 @@
-#youtubevid {
-    margin: 0;
-    border: 0;
-    padding: 0;
-    left: 50%;
-}
 html {
-   font-family: Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: "Bebas Neue", Arial;
+    margin: 1;
+    background-color: #3A3A3C;
+    color: #EEBA4C;
+
 }
+
 #title {
     font-weight: bold;
-    color:  green
-    
+    text-align: center;
+    color: whitesmoke;
+    font-size: 35px;
+    background-color: #23B5AF !important;
+    border-radius: 50px;
+    padding: 0px;
+    width: 75%;
+    position: fixed;
+    left: 50%;
+    margin-left: -37.5%;
+}
+
+img {
+    border-radius: 50%;
+    vertical-align: middle;
+    margin: 5px;
 }
