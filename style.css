@@ -1,26 +1,65 @@
-html {
+html, body {
     font-family: "Bebas Neue", Arial;
-    margin: 1;
+    margin: 0px;
     background-color: #1B1112;
     color: #EEBA4C;
 
+}
+
+/* top */
+
+#header {
+    top: -5px;
+    color: #1B1112;
+    background-color: whitesmoke;
+    position: fixed;
+    height: 11%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+#head {
+    letter-spacing: 5px;
+    font-size: 3vw;
+    z-index: 2;
+    margin-left: 3vw;
+    margin-top: 1vw;
+}
+
+#head2{
+    letter-spacing: 5px;
+    font-size: 2.5vw;
+    z-index: 2;
+    margin-left: 1vw;
+    margin-top: 1.2vw;
+}
+
+#head3{
+    letter-spacing: 5px;
+    font-size: 2.5vw;
+    z-index: 2;
+    margin-left: .7vw;
+    margin-top: 1.2vw;
 }
 
 #title {
     letter-spacing: 5px;
     padding: 0;
     text-align: center;
-    vertical-align: middle;
     color: whitesmoke;
-    font-size: 35px;
+    font-size: 2.3vw;
     background-image: linear-gradient(-90deg, #8EDC9D, #218C8D);
-    width: 100%;
-    height: 23%;
-    position: absolute;
-    top: 10%;
-    left: 0%;
+    margin-top: 3vw;
+    display: block;
+    line-height: 30vw;
 }
 
+/* top */
+
+/*web-text*/
 img {
     border-radius: 50%;
     vertical-align: middle;
@@ -34,7 +73,29 @@ img {
     display: block;
 }
 
-/* click hover effect for link to channel */
+#logo_tag {
+    text-align: center; 
+    font-size: 3vw;
+}
+
+#web_text {
+    font-size: 2vw;
+
+}
+
+#title2 {
+    letter-spacing: 3px;
+    font-size: 3vw;
+    text-align: center;
+    background-image: linear-gradient(90deg, #EF7126, #F9E559);
+    color: whitesmoke;
+    line-height: 5vw;
+    padding: 3vw;
+    display: block;
+}
+
+/*web-text*/
+/* transition effects */
 
 #click:hover {
 animation: hovereffect 1s forwards;
@@ -51,9 +112,9 @@ animation: hovereffect 1s forwards;
 }
 
 
-/* end of hover effect */
-
-/* color transition */
+#toptitle {
+    animation: colorfade 2s forwards;
+}
 @keyframes colorfade {
     0%{
         text:#218C8D;
@@ -66,27 +127,9 @@ animation: hovereffect 1s forwards;
     }
 }
 
-/* end of color transition */
+/* end of transition */
 
-#toptitle {
-    animation: colorfade 2s forwards;
-}
-
-#header::after {
-    content: "the picklesonmayo store";
-    top: -5px;
-    left: 20px;
-    letter-spacing: 5px; 
-    font-variant: small-caps;
-    font-size: 40px;
+a {
+    text-decoration: none;
     color: #1B1112;
-    background-color: whitesmoke;
-    position: fixed;
-    height: 11%;
-    width: 100%;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    text-align: center;
 }
-
