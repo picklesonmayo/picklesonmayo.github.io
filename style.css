@@ -134,23 +134,49 @@ a:hover {
     display: block;
 }
 
+.web_text3 {
+    color:#F7D708;
+    text-align: center;
+}
+/* END web-text*/
+
+/* footer */
+
 .footer {
     color: #8EDC9D;
     background-color: #333333;
     padding: 1vw;
-    display: block;
     font-size: 1.5vw;
-    text-align: left;
     line-height: .5vw;
+
 }
 
+#footer_title {
+    margin-top: 10vw;
+    margin-left: 5vw;
+}
+
+.footer_text {
+    text-align: center;
+    margin-top: -10vw;
+}
 #instagram {
     vertical-align: middle;
     margin: .1vw;
     width: 5%;
     height: auto;
+    margin-left: -10vw;
 }
-/* END web-text*/
+
+#twitter {
+    vertical-align: middle;
+    margin: .1vw;
+    width: 7%;
+    height: auto;
+    margin-left: -10vw;
+}
+
+/* END footer */
 
 /* transition effects */
 
